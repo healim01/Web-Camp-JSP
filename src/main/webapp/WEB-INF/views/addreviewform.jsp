@@ -55,15 +55,15 @@ button:hover {
 </style>
 </head>
 <body>
-	<h1> 한동대 교내 카페 음료 리뷰 </h1>
+	<h1> 크라우드 펀딩 리뷰 </h1>
 	<h3> 새로운 리뷰 추가하기</h3>
 	<form action="addok" method="post">
 		<table>
-			<tr><th> 카페 이름 </th><td><input id="css1" type="text" name="cafe" placeholder="cafe"/></td></tr>
-			<tr><th> 음료 이름 </th><td><input id="css1" type="text" name="drink" placeholder="drink"/></td></tr>
-			<tr><th> 음료 가격 </th><td><input id="css1" type="text" name="price" placeholder="price"/></td></tr>
-			<tr><th> 음료 별점 </th><td><input id="css1" type="text" name="star" placeholder="star"/></td></tr>
-			<tr><th> 음료 리뷰 </th><td><textarea id="css2" cols="100" rows="8" name="review" placeholder="review"></textarea></td></tr>
+			<tr><th> 크라우드 펀딩 프로젝트 이름 </th><td><input id="css1" type="text" name="cafe" placeholder="cafe"/></td></tr>
+			<tr><th> 제품 이름 </th><td><input id="css1" type="text" name="drink" placeholder="drink"/></td></tr>
+			<tr><th> 제품 가격 </th><td><input id="css1" type="text" name="price" placeholder="price"/></td></tr>
+			<tr><th> 제품 별점 </th><td><input id="css1" type="text" name="star" placeholder="star"/></td></tr>
+			<tr><th> 제품 리뷰 </th><td><textarea id="css2" cols="100" rows="8" name="review" placeholder="review"></textarea></td></tr>
 		</table>
 		<br>
 		<button type="button" onclick = "location.href='list'">목록 보기</button>
