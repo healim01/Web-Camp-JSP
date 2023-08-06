@@ -51,16 +51,16 @@ th {
 </style>
 </head>
 <body>
-	<h1> 한동대 교내 카페 리뷰 </h1>
+	<h1> 크라우드 펀딩 </h1>
 	
 	<form:form commandName="reviewVO" method="POST">
 		<form:hidden path="id"/>
 		<table id="info">
-			<tr><th> 카페 이름 </th><td class="top">${reviewVO.cafe}</td></tr>
-			<tr><th> 음료 이름 </th><td>${reviewVO.drink }</td></tr>
-			<tr><th> 음료 가격 </th><td>${reviewVO.price }</td></tr>
-			<tr><th> 음료 별점 </th><td>${reviewVO.star }</td></tr>
-			<tr><th> 음료 리뷰 </th><td>${reviewVO.review }</td></tr>
+			<tr><th> 펀딩 프로젝트 이름 </th><td class="top">${reviewVO.cafe}</td></tr>
+			<tr><th> 제품 이름 </th><td>${reviewVO.drink }</td></tr>
+			<tr><th> 제품 가격 </th><td>${reviewVO.price }</td></tr>
+			<tr><th> 제품 별점 </th><td>${reviewVO.star }</td></tr>
+			<tr><th> 제품 리뷰 </th><td>${reviewVO.review }</td></tr>
 		</table>
 		<br>
 		<input id=button type="button" value="돌아가기" onclick="history.back()">
